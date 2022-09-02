@@ -2,19 +2,16 @@
   "name": "wanted-pre-onboarding-challenge-fe-2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/small-j/wanted-pre-onboarding-challenge-fe-2.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/small-j/wanted-pre-onboarding-challenge-fe-2/issues"
-  },
-  "homepage": "https://github.com/small-j/wanted-pre-onboarding-challenge-fe-2#readme"
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }
